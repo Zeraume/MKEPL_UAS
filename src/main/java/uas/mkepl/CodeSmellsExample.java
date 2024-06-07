@@ -1,7 +1,7 @@
 package uas.mkepl;
 
 public class CodeSmellsExample {
-    public int longMethod() {
+    public int longMethod() { //Fungsi longMethod
         int a = 42;
         int b = 58;
         int c = 17;
