@@ -16,6 +16,7 @@ public class CodeSmellsExampleTest {
         CodeSmellsExample example = new CodeSmellsExample();
         CodeSmellsExample.Helper helper = example.new Helper();
         helper.doNothing();
+        helper.doSomething();
         assertTrue(true);
     }
 
