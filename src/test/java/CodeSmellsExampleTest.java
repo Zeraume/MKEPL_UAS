@@ -8,7 +8,7 @@ public class CodeSmellsExampleTest {
     public void testLongMethod() {
         CodeSmellsExample example = new CodeSmellsExample();
         int result = example.longMethod();
-        assertEquals(141, result);
+        assertEquals(121, result);
     }
 
     @Test
@@ -21,21 +21,21 @@ public class CodeSmellsExampleTest {
 
     @Test
     public void testMagicNumbers() {
-        int a = 42;
+        int a = 22;
         int b = 58;
         int c = 17;
         int d = 24;
         int sum1 = a + b;
         int sum2 = c + d;
-        assertEquals(100, sum1);
+        assertEquals(80, sum1);
         assertEquals(41, sum2);
     }
 
     @Test
     public void testComments() {
-        int a = 42;
+        int a = 22;
         int b = 58;
         int sum = a + b;
-        assertEquals(100, sum);
+        assertEquals(80, sum);
     }
 }
