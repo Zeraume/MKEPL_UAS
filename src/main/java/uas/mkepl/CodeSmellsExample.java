@@ -2,7 +2,7 @@ package uas.mkepl;
 
 public class CodeSmellsExample {
     public int longMethod() {
-        int a = 42;
+        int a = 22;
         int b = 58;
         int c = 17;
         int d = 24;
